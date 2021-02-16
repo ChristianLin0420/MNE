@@ -95,6 +95,7 @@ conds_we_care_about = [	'auditory/left',
                        	'visual/right']
 
 epochs.equalize_event_counts(conds_we_care_about)  # this operates in-place
+
 aud_epochs = epochs['auditory']
 vis_epochs = epochs['visual']
 
